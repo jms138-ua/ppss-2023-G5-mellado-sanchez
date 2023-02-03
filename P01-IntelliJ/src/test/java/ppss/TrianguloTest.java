@@ -55,4 +55,26 @@ public class TrianguloTest {
         assertEquals(resultadoEsperado, resultadoReal);
     }
 
+
+    @Test
+    public void testTipo_trianguloC5() {
+        a = 2;
+        b = 3;
+        c = 4;
+        resultadoEsperado = "Escaleno";
+        tri= new Triangulo();
+        resultadoReal = tri.tipo_triangulo(a,b,c);
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
+
+    @Test
+    public void testTipo_trianguloC6() {
+        a = 2;
+        b = 2;
+        c = 3;
+        resultadoEsperado = "Isosceles";
+        tri= new Triangulo();
+        resultadoReal = tri.tipo_triangulo(a,b,c);
+        assertEquals(resultadoEsperado, resultadoReal);
+    }
 }

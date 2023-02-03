@@ -12,8 +12,8 @@ public class Triangulo {
         if ((b <1) && (b > 200)) {
             return "Valor b sobrepasa el rango permitido";
         }
-        if ((c <1) && (c > 200)) {
-            return "Valor c sobrepasa el rango permitido";
+        if ((c <1) || (c > 200)) {
+            return "Valor c fuera del rango permitido";
         }
 
         if (a >= (b+c)) {
