@@ -69,10 +69,10 @@ public class TrianguloTest {
 
     @Test
     public void testTipo_trianguloC6() {
-        a = 2;
+        a = 1;
         b = 2;
         c = 3;
-        resultadoEsperado = "Isosceles";
+        resultadoEsperado = "No es un triangulo";
         tri= new Triangulo();
         resultadoReal = tri.tipo_triangulo(a,b,c);
         assertEquals(resultadoEsperado, resultadoReal);
