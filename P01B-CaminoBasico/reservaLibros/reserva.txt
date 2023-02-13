@@ -1,0 +1,37 @@
+- PASO 1 CFG
+El grafo resultante en "reserva-paso1.png"
+
+- PASO 2 CC
+CC = nºarcos - nºnodos + 2 = 23 - 17 + 2 = 6
+CC = nºregiones (solucion en "reserva-paso2.2") = 6
+CC = nºcondiciones + 1 (solucion en "reserva-paso2.3") = 6
+
+- PASO 3 CAMINOS INDEPENDIENTES
+c1: 1,2,4,12,17
+c2: 1,2,3,5,6,7,10,6,12,17
+c3: 1,2,3,5,6,7,10,11,12,13,14,16,14,15,17
+c4: 1,2,3,5,6,8,12,13,14,16,14,15,17
+c5: 1,2,3,5,6,9,12,13,14,16,14,16,17
+
+- PASO 4 TABLA DE CASOS DE PRUEBA
+(copiado de la solucion de la proxima practica)
+
+Suponemos que el login/password del bibliotecario es “ppss”/“ppss”;
+que “Luis” es un socio y “Pepe” no lo es;
+y que los isbns registrados en la base de datos son “11111”, “22222”. 
+NoExcep: El método reserva no lanza ninguna excepción 
+IsbnEx: Excepción IsbnInvalidoException
+SocioEx: Excepción SocioInvalidoException 
+JDBCEx: Excepción JDBCException
+ReservaException1: Excepción de tipo ReservaException con el mensaje: "ISBN invalido:33333; ”
+ReservaException2: Excepción de tipo ReservaException con el mensaje: "SOCIO invalido; ”
+ReservaException3: Excepción de tipo ReservaException con el mensaje: “CONEXION invalida;"
+
+Camino	| Datos Entrada							| Resultado
+	| login, password, IDsocio, isbns, {reserva()}			| Esperado, Obtenido
+____________________________________________________________________________________________
+c1	| "xxxx", "xxxx", "Luis", {"1111"}, --				| ??
+c2	| "ppss", "ppss", "Luis", {"1111","2222"}, {NoExcep,NoExcep.}	| No se lanza excep
+c3	| "ppss", "ppss", "Luis", {"3333"}, {IsbnEx}			| ReservaException1
+c4	| "ppss", "ppss", "Pepe", {"1111"}, {SocioEx}			| ReservaException2
+c5	| "ppss", "ppss", "Luis", {"1111"}, {JDBCEx}			| ReservaException3

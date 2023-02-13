@@ -1,0 +1,29 @@
+- PASO 1 CFG
+El grafo resultante en "caracteres-paso1.png"
+
+- PASO 2 CC
+CC = nºarcos - nºnodos + 2 = 16 - 12 + 2 = 6
+CC = nºregiones (solucion en "caracteres-paso2.2") = 6
+CC = nºcondiciones + 1 (solucion en "caracteres-paso2.3") = 6
+
+- PASO 3 CAMINOS INDEPENDIENTES
+c1: 1,2,3,5,12
+c2: 1,2,3,4,7,8,12
+c3: 1,2,3,4,7,4,6,9,10,11,12
+c4: 1,2,3,4,7,4,6,9,10,12
+*El camino de 6 a 12 es imposible!, no se cuenta*
+
+- PASO 4 TABLA DE CASOS DE PRUEBA
+Precondiciones:
+- File a.txt no existe
+- File b.txt existe pero sin permisos de lectura
+- File c.txt existe pero con problemas
+- File d.txt existe, con un solo caracter
+
+Camino	| Datos Entrada		| Resultado
+	| NombreFichero		| Esperado, Obtenido
+______________________________________________________________________________
+c1	| a.txt			| a.txt (No existe el archivo o el directorio),
+c2	| b.txt			| b.txt (Error al leer el archivo),
+c3	| c.txt			| c.txt (Error al cerrar el archivo),
+c4	| d.txt			| 1,
