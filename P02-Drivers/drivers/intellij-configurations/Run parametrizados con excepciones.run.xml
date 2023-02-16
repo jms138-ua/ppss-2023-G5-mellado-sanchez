@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Run CineTest" type="MavenRunConfiguration" factoryName="Maven">
+  <configuration default="false" name="Run parametrizados con excepciones" type="MavenRunConfiguration" factoryName="Maven">
     <MavenSettings>
       <option name="myGeneralSettings" />
       <option name="myRunnerSettings" />
@@ -12,7 +12,7 @@
             <list>
               <option value="clean" />
               <option value="test" />
-              <option value="-Dtest=CineTest,!CineTest#reservaButacasC5" />
+              <option value="-Dgroups=(parametrizado&amp;conExcepciones)" />
             </list>
           </option>
           <option name="pomFileName" />
