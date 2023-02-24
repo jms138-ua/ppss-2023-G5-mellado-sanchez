@@ -1,0 +1,23 @@
+Entrada: (*, #6, #3) (tipo,datos,destinatario,idJuego,urlServidor)
+	Clase valida -> E: TipoMensaje.DATOS, T2: TipoMensaje.BROADCAST, T3: TipoMensaje.INFO
+	Clase invalida -> NE1: TipoMensaje.DATOS & datos=null
+	Clase invalida -> NE2: TipoMensaje.BROADCAST & datos=null
+	Clase invalida -> NE3: TipoMensaje.DATOS & destinatario=null
+	Clase invalida -> NE4: TipoMensaje.DATOS & destinatario no existente
+	Clase invalida -> NE5: TipoMensaje.INFO & urlServidor inactivo
+	Clase invalida -> NE6: !TipoMensaje.INFO & idJuego inactivo
+Salida:
+	Clase valida -> S1: -
+	Clase valida -> S2: enviaMensaje()
+	Clase invalida -> NS1: MensajeException
+	Clase invalida -> NS2: JuegoInvalidoException
+
+Clases 		| E									| Resultado Esperado
+____________________________________________________________________________________________________
+E, S2		| (TipoMensaje.DATOS, "jms", [01,10,11], "PPSS", "serverua.net")	| enviaMensaje()
+NE1, NS1	| (TipoMensaje.DATOS, "jms", [null], "PPSS", "serverua.net")		| MensajeException
+NE2, NS1	| (TipoMensaje.BROADCAST, "jms", [null], "PPSS", "serverua.net")	| MensajeException
+NE3, NS1	| (TipoMensaje.DATOS, "null", [01,10,11], "PPSS", "serverua.net")	| MensajeException
+NE4, NS1	| (TipoMensaje.DATOS, "alv", [01,10,11], "PPSS", "serverua.net")	| MensajeException
+NE5, NS2	| (TipoMensaje.INFO, "jms", [01,10,11], "PPSS", "online.net")		| JuegoInvalidoException
+NE6, S1		| (TipoMensaje.DATOS, "jms", [01,10,11], "PS", "serverua.net")		| -

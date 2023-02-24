@@ -1,0 +1,29 @@
+Entrada1: (*, #6, #1) (fechaInicioCurso,fechaFinCurso,diaSemana)
+	Clase valida -> E1: fechaInicioCurso<=fechaFinCurso & 1<=diaSemana<=6 & fechaInicioCurso<diaSemana<fechaFinCurso
+	Clase invalida -> NE1: diaSemana<1
+	Clase invalida -> NE2: diaSemana>6
+	Clase invalida -> NE3: fechaInicioCurso>fechaFinCurso
+	Clase invalida -> NE4: fechaInicioCurso>diaSemana
+	Clase invalida -> NE5: fechaFinCurso<diaSemana
+Entrada2: asignatura
+	Clase valida -> A: asignatura
+Entrada3: horario
+	Clase valida -> H1: horario hh:mm
+	Clase valida -> H2: null
+	Clase invalida -> NH: no hh:mm
+Salida: eventos
+	Clase valida -> S1: List<EventoCalendario> con .duracion=120
+	Clase valida -> S2: EventoCalendario con .duracion=-1 y .horaInicio=null
+	Clase invalida -> NS1: List<>
+	Clase invalida -> NS2: ParseException
+
+Clases 			| E1 , E2 , E3					| Resultado Esperado
+____________________________________________________________________________________________________
+E, A, H1, S1		| (01/01/2023,01/01/2024,3), "PPSS", 11:00	| [("PPSS",??,11:00,120),??]
+E, A, H2, S2		| (01/01/2023,01/01/2024,3), "PPSS", null	| [("PPSS",??,null,-1),??]
+NE1, A, H1, NS2		| (01/01/2023,01/01/2024,0), "PPSS", 11:00	| ParseException
+NE2, A, H1, NS2		| (01/01/2023,01/01/2024,7), "PPSS", 11:00	| ParseException
+NE3, A, H1, NS1		| (01/01/2024,01/01/2023,3), "PPSS", 11:00	| []
+NE4, A, H1, NS1		| (02/01/2023,01/01/2024,1), "PPSS", 11:00	| []
+NE5, A, H1, NS1		| (01/01/2023,02/01/2024,2), "PPSS", 11:00	| []
+E, A, NH, NS2		| (01/01/2023,01/01/2024,3), "PPSS", 1:0	| ParseException

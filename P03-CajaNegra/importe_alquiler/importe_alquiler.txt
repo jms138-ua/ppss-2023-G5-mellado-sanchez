@@ -1,0 +1,30 @@
+Entrada1: (#3) tipoCoche
+	Clase valida -> T1: turismo, T2: deportivo
+	Clase invalida -> NT: null
+Entrada2: (#5) fechaInicio
+	Clase valida -> F: posterior a la actual
+	Clase invalida -> NF: anterior a la actual
+Entrada3: (#4, #1) numDias
+	Clase valida -> D1: =1
+	Clase valida -> D2: [2..30]
+	Clase invalida -> ND1: <1
+	Clase invalida -> ND2: >30
+Entrada4: (#5) disponible
+	Clase valida -> DI: disponible
+	Clase invalida -> NDI: no disponible
+Salida: importe
+	Clase valida -> S1: 100euros
+	Clase valida -> S2: 50euros/dia
+	Clase invalida -> NS1: ??
+	Clase invalida -> NS2: ReservaException "Fecha no correcta"
+	Clase invalida -> NS3: ReservaException "Reserva no posible"
+
+Clases 			| E1 , E2 , E3 , E4 		| Resultado Esperado
+____________________________________________________________________________
+T1, F, D1, DI, S1	| turismo, 01/01/2024, 1, t	| 100
+T2, F, D2, DI, S2	| deportivo, 01/01/2024, 3, t	| 150
+NT, F, D1, DI, NS1	| null, 01/01/2024, 1, t	| ??
+T1, NF, D1, DI, NS2	| turismo, 01/01/2023, 1, t	| ReservaException "Fecha no correcta"
+T1, F, ND1, DI, NS1	| turismo, 01/01/2024, 0, t	| ??
+T1, F, ND2, DI, NS3	| turismo, 01/01/2024, 31, t	| ReservaException "Reserva no posible"
+T1, F, D1, NDI, NS3	| turismo, 01/01/2024, 1, f	| ReservaException "Reserva no posible"
