@@ -3,21 +3,16 @@ package ppss;
 import java.time.LocalDate;
 
 public class AlquilaCoches {
-    protected Calendario calendario;
+    //No usar factoria local, pues es protected y se puede acceder directamente desde Test
+    protected Calendario calendario = new Calendario();
 
     //Metodo factoria local
     public IService crearServicio(){
         return new Servicio();
     }
-    //Metodo factoria local
-    public Calendario crearCalendario(){
-        return new Calendario();
-    }
 
     //Metodo refactorizado
     public Ticket calculaPrecio(TipoCoche tipo, LocalDate inicio, int ndias) throws MensajeException {
-        calendario = crearCalendario();
-
         Ticket ticket = new Ticket();
         float precioDia,precioTotal =0.0f;
         float porcentaje = 0.25f;

@@ -22,7 +22,7 @@ class AlquilaCochesTest{
 
         AlquilaCochesTestable alquilaCochesTestable = new AlquilaCochesTestable();
         alquilaCochesTestable.setServicio(servicioStub);
-        alquilaCochesTestable.setCalendario(calendarioStub);
+        alquilaCochesTestable.calendario = calendarioStub;
 
         Ticket ticket = assertDoesNotThrow(
                 () -> alquilaCochesTestable.calculaPrecio(coche,inicio,dias));
@@ -50,7 +50,7 @@ class AlquilaCochesTest{
 
         AlquilaCochesTestable alquilaCochesTestable = new AlquilaCochesTestable();
         alquilaCochesTestable.setServicio(servicioStub);
-        alquilaCochesTestable.setCalendario(calendarioStub);
+        alquilaCochesTestable.calendario = calendarioStub;
 
         Ticket ticket = assertDoesNotThrow(
                 () -> alquilaCochesTestable.calculaPrecio(coche,inicio,dias));
@@ -79,7 +79,7 @@ class AlquilaCochesTest{
 
         AlquilaCochesTestable alquilaCochesTestable = new AlquilaCochesTestable();
         alquilaCochesTestable.setServicio(servicioStub);
-        alquilaCochesTestable.setCalendario(calendarioStub);
+        alquilaCochesTestable.calendario = calendarioStub;
 
         MensajeException exc = assertThrows(
                 MensajeException.class,
