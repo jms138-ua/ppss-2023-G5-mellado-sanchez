@@ -91,7 +91,18 @@ class ReservaStubTest {
         assertDoesNotThrow(
                 ()->EasyMock.expect(stubFactoria.getOperacionBO()).andStubReturn(stubOperacion)
         );
-        //nose
+        assertDoesNotThrow(
+                ()->stubOperacion.operacionReserva(anyString(),anyString())
+        );
+        EasyMock.expectLastCall().andThrow(new IsbnInvalidoException());
+        assertDoesNotThrow(
+                ()->stubOperacion.operacionReserva(anyString(),anyString())
+        );
+        EasyMock.expectLastCall();
+        assertDoesNotThrow(
+                ()->stubOperacion.operacionReserva(anyString(),anyString())
+        );
+        EasyMock.expectLastCall().andThrow(new IsbnInvalidoException());
 
         EasyMock.replay(sut, stubFactoria, stubOperacion);
         ReservaException exc = assertThrows(ReservaException.class,
