@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <cliente id="1"
+             nombre="Alvaro"
+             apellido="Perez"
+             direccion="Brasil 2"
+             ciudad="Alicante" />
+    <cliente id="2"
+             nombre="Raquel"
+             apellido="Marti"
+             direccion="Andrés segovia 8"
+             ciudad="Valencia" />
+    <cliente id="3"
+              nombre="Javier"
+              apellido="Mellado"
+              direccion="Ecuador 5"
+              ciudad="Alicante" />
+</dataset>
