@@ -46,8 +46,8 @@ public class ShoesPage{
 
         Set<String> setIds = driver.getWindowHandles();
         String[] handleIds = setIds.toArray(new String[setIds.size()]);
-        productComparisonPage.myHandleId = handleIds[0];
-        productComparisonPage.parentHandleId = handleIds[1];
+        productComparisonPage.myHandleId = handleIds[1];
+        productComparisonPage.parentHandleId = handleIds[0];
 
         driver.switchTo().window(productComparisonPage.myHandleId);
         return productComparisonPage;

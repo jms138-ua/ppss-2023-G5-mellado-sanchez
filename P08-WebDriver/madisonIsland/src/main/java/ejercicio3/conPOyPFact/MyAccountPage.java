@@ -9,7 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 public class MyAccountPage{
     private WebDriver driver;
 
-    @FindBy(linkText = "Accessories")
+    @FindBy(xpath = "//*[@id=\"nav\"]/ol/li[3]/a")
     WebElement wel_accesories;
     @FindBy(linkText = "Shoes")
     WebElement wel_shoes;
