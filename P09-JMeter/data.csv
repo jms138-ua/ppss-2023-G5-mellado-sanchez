@@ -1,0 +1,962 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1684772109087,2,Home,200,OK,Thread Group 1-1,text,true,,1497,253,5,5,http://localhost:8080/jpetstore/,1,0,0
+1684772109087,1,Home-0,302,Found,Thread Group 1-1,,true,,146,126,5,5,http://localhost:8080/jpetstore,1,0,0
+1684772109088,1,Home-1,200,OK,Thread Group 1-1,text,true,,1351,127,5,5,http://localhost:8080/jpetstore/,1,0,0
+1684772109693,3,Home,200,OK,Thread Group 1-2,text,true,,1497,253,6,6,http://localhost:8080/jpetstore/,2,0,1
+1684772109693,2,Home-0,302,Found,Thread Group 1-2,,true,,146,126,6,6,http://localhost:8080/jpetstore,2,0,1
+1684772109695,1,Home-1,200,OK,Thread Group 1-2,text,true,,1351,127,6,6,http://localhost:8080/jpetstore/,1,0,0
+1684772111096,2,Home,200,OK,Thread Group 1-6,text,true,,1497,253,10,10,http://localhost:8080/jpetstore/,1,0,1
+1684772111096,1,Home-0,302,Found,Thread Group 1-6,,true,,146,126,10,10,http://localhost:8080/jpetstore,1,0,1
+1684772111097,1,Home-1,200,OK,Thread Group 1-6,text,true,,1351,127,10,10,http://localhost:8080/jpetstore/,1,0,0
+1684772111188,2,Home,200,OK,Thread Group 1-3,text,true,,1497,253,10,10,http://localhost:8080/jpetstore/,1,0,1
+1684772111188,1,Home-0,302,Found,Thread Group 1-3,,true,,146,126,10,10,http://localhost:8080/jpetstore,1,0,1
+1684772111189,1,Home-1,200,OK,Thread Group 1-3,text,true,,1351,127,10,10,http://localhost:8080/jpetstore/,1,0,0
+1684772111493,4,Home,200,OK,Thread Group 1-4,text,true,,1497,253,11,11,http://localhost:8080/jpetstore/,2,0,1
+1684772111493,2,Home-0,302,Found,Thread Group 1-4,,true,,146,126,11,11,http://localhost:8080/jpetstore,2,0,1
+1684772111495,2,Home-1,200,OK,Thread Group 1-4,text,true,,1351,127,11,11,http://localhost:8080/jpetstore/,2,0,0
+1684772111715,2,Home,200,OK,Thread Group 1-5,text,true,,1497,253,11,11,http://localhost:8080/jpetstore/,1,0,1
+1684772111715,1,Home-0,302,Found,Thread Group 1-5,,true,,146,126,11,11,http://localhost:8080/jpetstore,1,0,1
+1684772111716,1,Home-1,200,OK,Thread Group 1-5,text,true,,1351,127,11,11,http://localhost:8080/jpetstore/,1,0,0
+1684772111913,3,Main Catalog,200,OK,Thread Group 1-1,text,true,,5762,399,12,12,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772112714,3,Main Catalog,200,OK,Thread Group 1-2,text,true,,5762,399,14,14,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772112750,3,Home,200,OK,Thread Group 1-7,text,true,,1497,253,14,14,http://localhost:8080/jpetstore/,2,0,1
+1684772112750,2,Home-0,302,Found,Thread Group 1-7,,true,,146,126,14,14,http://localhost:8080/jpetstore,2,0,1
+1684772112752,1,Home-1,200,OK,Thread Group 1-7,text,true,,1351,127,14,14,http://localhost:8080/jpetstore/,1,0,0
+1684772113319,2,Home,200,OK,Thread Group 1-8,text,true,,1497,253,15,15,http://localhost:8080/jpetstore/,2,0,0
+1684772113319,2,Home-0,302,Found,Thread Group 1-8,,true,,146,126,15,15,http://localhost:8080/jpetstore,2,0,0
+1684772113321,0,Home-1,200,OK,Thread Group 1-8,text,true,,1351,127,15,15,http://localhost:8080/jpetstore/,0,0,0
+1684772113412,3,Home,200,OK,Thread Group 1-12,text,true,,1497,253,16,16,http://localhost:8080/jpetstore/,2,0,1
+1684772113412,2,Home-0,302,Found,Thread Group 1-12,,true,,146,126,16,16,http://localhost:8080/jpetstore,2,0,1
+1684772113414,1,Home-1,200,OK,Thread Group 1-12,text,true,,1351,127,16,16,http://localhost:8080/jpetstore/,1,0,0
+1684772113748,3,Main Catalog,200,OK,Thread Group 1-6,text,true,,5762,399,16,16,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772113834,3,Sign In,200,OK,Thread Group 1-1,text,true,,3921,545,17,17,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772113895,3,Home,200,OK,Thread Group 1-9,text,true,,1497,253,17,17,http://localhost:8080/jpetstore/,2,0,1
+1684772113895,2,Home-0,302,Found,Thread Group 1-9,,true,,146,126,17,17,http://localhost:8080/jpetstore,2,0,1
+1684772113897,1,Home-1,200,OK,Thread Group 1-9,text,true,,1351,127,17,17,http://localhost:8080/jpetstore/,1,0,0
+1684772113913,6,Main Catalog,200,OK,Thread Group 1-3,text,true,,5762,399,17,17,http://localhost:8080/jpetstore/actions/Catalog.action,6,0,0
+1684772114081,3,Main Catalog,200,OK,Thread Group 1-4,text,true,,5762,399,17,17,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772114166,2,Home,200,OK,Thread Group 1-14,text,true,,1497,253,17,17,http://localhost:8080/jpetstore/,1,0,0
+1684772114166,1,Home-0,302,Found,Thread Group 1-14,,true,,146,126,17,17,http://localhost:8080/jpetstore,1,0,0
+1684772114167,1,Home-1,200,OK,Thread Group 1-14,text,true,,1351,127,17,17,http://localhost:8080/jpetstore/,1,0,0
+1684772114313,2,Home,200,OK,Thread Group 1-13,text,true,,1497,253,18,18,http://localhost:8080/jpetstore/,1,0,0
+1684772114313,1,Home-0,302,Found,Thread Group 1-13,,true,,146,126,18,18,http://localhost:8080/jpetstore,1,0,0
+1684772114314,1,Home-1,200,OK,Thread Group 1-13,text,true,,1351,127,18,18,http://localhost:8080/jpetstore/,1,0,0
+1684772114359,3,Home,200,OK,Thread Group 1-11,text,true,,1497,253,18,18,http://localhost:8080/jpetstore/,1,0,0
+1684772114359,1,Home-0,302,Found,Thread Group 1-11,,true,,146,126,18,18,http://localhost:8080/jpetstore,1,0,0
+1684772114360,2,Home-1,200,OK,Thread Group 1-11,text,true,,1351,127,18,18,http://localhost:8080/jpetstore/,2,0,0
+1684772114362,1,Home,200,OK,Thread Group 1-10,text,true,,1497,253,18,18,http://localhost:8080/jpetstore/,0,0,0
+1684772114362,0,Home-0,302,Found,Thread Group 1-10,,true,,146,126,18,18,http://localhost:8080/jpetstore,0,0,0
+1684772114362,1,Home-1,200,OK,Thread Group 1-10,text,true,,1351,127,18,18,http://localhost:8080/jpetstore/,1,0,0
+1684772114669,2,Home,200,OK,Thread Group 1-15,text,true,,1497,253,19,19,http://localhost:8080/jpetstore/,2,0,1
+1684772114669,2,Home-0,302,Found,Thread Group 1-15,,true,,146,126,19,19,http://localhost:8080/jpetstore,2,0,1
+1684772114671,0,Home-1,200,OK,Thread Group 1-15,text,true,,1351,127,19,19,http://localhost:8080/jpetstore/,0,0,0
+1684772114991,3,Sign In,200,OK,Thread Group 1-2,text,true,,3921,545,19,19,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772115063,3,Main Catalog,200,OK,Thread Group 1-5,text,true,,5762,399,20,20,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772115563,3,Main Catalog,200,OK,Thread Group 1-7,text,true,,5762,399,21,21,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772115681,3,Home,200,OK,Thread Group 1-17,text,true,,1497,253,21,21,http://localhost:8080/jpetstore/,2,0,1
+1684772115681,2,Home-0,302,Found,Thread Group 1-17,,true,,146,126,21,21,http://localhost:8080/jpetstore,2,0,1
+1684772115683,1,Home-1,200,OK,Thread Group 1-17,text,true,,1351,127,21,21,http://localhost:8080/jpetstore/,1,0,0
+1684772115816,2,Main Catalog,200,OK,Thread Group 1-12,text,true,,5762,399,22,22,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772115841,4,Main Catalog,200,OK,Thread Group 1-9,text,true,,5762,399,22,22,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772115952,2,Sign In,200,OK,Thread Group 1-4,text,true,,3921,545,22,22,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772116002,2,Home,200,OK,Thread Group 1-16,text,true,,1497,253,22,22,http://localhost:8080/jpetstore/,1,0,0
+1684772116002,1,Home-0,302,Found,Thread Group 1-16,,true,,146,126,22,22,http://localhost:8080/jpetstore,1,0,0
+1684772116003,1,Home-1,200,OK,Thread Group 1-16,text,true,,1351,127,22,22,http://localhost:8080/jpetstore/,1,0,0
+1684772116153,3,Home,200,OK,Thread Group 1-18,text,true,,1497,253,22,22,http://localhost:8080/jpetstore/,2,0,1
+1684772116153,2,Home-0,302,Found,Thread Group 1-18,,true,,146,126,22,22,http://localhost:8080/jpetstore,2,0,1
+1684772116155,1,Home-1,200,OK,Thread Group 1-18,text,true,,1351,127,22,22,http://localhost:8080/jpetstore/,1,0,0
+1684772116155,2,Main Catalog,200,OK,Thread Group 1-13,text,true,,5762,399,22,22,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772116279,2,Sign In,200,OK,Thread Group 1-6,text,true,,3925,545,23,23,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772116688,3,Main Catalog,200,OK,Thread Group 1-8,text,true,,5762,399,24,24,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772117010,3,Main Catalog,200,OK,Thread Group 1-10,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772117086,3,Sign In,200,OK,Thread Group 1-7,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772117121,2,Main Catalog,200,OK,Thread Group 1-14,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772117357,2,Sign In,200,OK,Thread Group 1-3,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772117793,3,Main Catalog,200,OK,Thread Group 1-11,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772117925,6,Sign In,200,OK,Thread Group 1-5,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,6,0,0
+1684772117952,3,Home,200,OK,Thread Group 1-19,text,true,,1497,253,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772117952,2,Home-0,302,Found,Thread Group 1-19,,true,,146,126,25,25,http://localhost:8080/jpetstore,2,0,0
+1684772117954,1,Home-1,200,OK,Thread Group 1-19,text,true,,1351,127,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772118033,3,Home,200,OK,Thread Group 1-22,text,true,,1497,253,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772118033,2,Home-0,302,Found,Thread Group 1-22,,true,,146,126,25,25,http://localhost:8080/jpetstore,2,0,0
+1684772118035,1,Home-1,200,OK,Thread Group 1-22,text,true,,1351,127,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772118075,4,Sign In,200,OK,Thread Group 1-9,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,4,0,0
+1684772118075,4,Sign In,200,OK,Thread Group 1-12,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,4,0,0
+1684772118082,2,Main Catalog,200,OK,Thread Group 1-15,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772118167,6,Home,200,OK,Thread Group 1-20,text,true,,1497,253,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772118167,2,Home-0,302,Found,Thread Group 1-20,,true,,146,126,25,25,http://localhost:8080/jpetstore,2,0,0
+1684772118169,4,Home-1,200,OK,Thread Group 1-20,text,true,,1351,127,25,25,http://localhost:8080/jpetstore/,4,0,0
+1684772118233,2,Main Catalog,200,OK,Thread Group 1-17,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772118376,3,Main Catalog,200,OK,Thread Group 1-18,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772118402,3,Sign In,200,OK,Thread Group 1-13,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772118421,3,Home,200,OK,Thread Group 1-21,text,true,,1497,253,25,25,http://localhost:8080/jpetstore/,2,0,1
+1684772118421,2,Home-0,302,Found,Thread Group 1-21,,true,,146,126,25,25,http://localhost:8080/jpetstore,2,0,1
+1684772118423,1,Home-1,200,OK,Thread Group 1-21,text,true,,1351,127,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772118598,5,Login,200,OK,Thread Group 1-1,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772118598,4,Login-0,302,Found,Thread Group 1-1,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772118602,1,Login-1,200,OK,Thread Group 1-1,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772118724,3,Main Catalog,200,OK,Thread Group 1-16,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772118894,2,Home,200,OK,Thread Group 1-23,text,true,,1497,253,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772118894,1,Home-0,302,Found,Thread Group 1-23,,true,,146,126,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772118895,1,Home-1,200,OK,Thread Group 1-23,text,true,,1351,127,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772119466,3,Home,200,OK,Thread Group 1-25,text,true,,1497,253,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772119466,2,Home-0,302,Found,Thread Group 1-25,,true,,146,126,25,25,http://localhost:8080/jpetstore,2,0,0
+1684772119468,1,Home-1,200,OK,Thread Group 1-25,text,true,,1351,127,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772119735,5,Home,200,OK,Thread Group 1-24,text,true,,1497,253,25,25,http://localhost:8080/jpetstore/,3,0,0
+1684772119735,3,Home-0,302,Found,Thread Group 1-24,,true,,146,126,25,25,http://localhost:8080/jpetstore,3,0,0
+1684772119738,2,Home-1,200,OK,Thread Group 1-24,text,true,,1351,127,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772119802,2,Sign In,200,OK,Thread Group 1-14,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772119828,6,Main Catalog,200,OK,Thread Group 1-19,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,6,0,0
+1684772119860,1,Sign In,200,OK,Thread Group 1-10,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772119938,5,Login,200,OK,Thread Group 1-4,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772119938,3,Login-0,302,Found,Thread Group 1-4,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772119941,2,Login-1,200,OK,Thread Group 1-4,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772119979,7,Login,200,OK,Thread Group 1-2,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772119979,5,Login-0,302,Found,Thread Group 1-2,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772119984,2,Login-1,200,OK,Thread Group 1-2,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772120096,2,Main Catalog,200,OK,Thread Group 1-20,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772120163,2,Sign In,200,OK,Thread Group 1-8,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772120450,2,Main Catalog,200,OK,Thread Group 1-23,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772120466,3,Main Catalog,200,OK,Thread Group 1-21,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772120486,2,Sign In,200,OK,Thread Group 1-15,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772120709,3,Main Catalog,200,OK,Thread Group 1-22,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772120913,5,Login,200,OK,Thread Group 1-7,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772120913,3,Login-0,302,Found,Thread Group 1-7,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772120916,2,Login-1,200,OK,Thread Group 1-7,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772121045,2,Sign In,200,OK,Thread Group 1-17,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772121226,3,Sign In,200,OK,Thread Group 1-18,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772121230,3,Sign In,200,OK,Thread Group 1-11,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772121385,3,Sign In,200,OK,Thread Group 1-16,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772121531,3,Reptiles,200,OK,Thread Group 1-1,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,3,0,0
+1684772121623,7,Login,200,OK,Thread Group 1-6,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772121623,4,Login-0,302,Found,Thread Group 1-6,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772121627,3,Login-1,200,OK,Thread Group 1-6,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772121928,6,Login,200,OK,Thread Group 1-5,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772121928,3,Login-0,302,Found,Thread Group 1-5,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772121931,3,Login-1,200,OK,Thread Group 1-5,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772122112,6,Login,200,OK,Thread Group 1-3,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772122112,3,Login-0,302,Found,Thread Group 1-3,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772122115,3,Login-1,200,OK,Thread Group 1-3,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772122209,3,Sign In,200,OK,Thread Group 1-23,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772122310,5,Login,200,OK,Thread Group 1-9,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772122310,3,Login-0,302,Found,Thread Group 1-9,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772122313,2,Login-1,200,OK,Thread Group 1-9,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772122349,2,Reptiles,200,OK,Thread Group 1-2,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772122485,2,Main Catalog,200,OK,Thread Group 1-25,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772122521,4,Sign In,200,OK,Thread Group 1-22,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,4,0,0
+1684772122524,2,Reptiles,200,OK,Thread Group 1-4,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772122625,2,Main Catalog,200,OK,Thread Group 1-24,text,true,,5762,399,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772122776,3,Sign In,200,OK,Thread Group 1-19,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772122949,6,Login,200,OK,Thread Group 1-12,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772122949,3,Login-0,302,Found,Thread Group 1-12,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772122952,3,Login-1,200,OK,Thread Group 1-12,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772123069,4,Sign Out,200,OK,Thread Group 1-1,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772123069,2,Sign Out-0,302,Found,Thread Group 1-1,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772123071,2,Sign Out-1,200,OK,Thread Group 1-1,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772123078,2,Sign In,200,OK,Thread Group 1-21,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772123341,2,Reptiles,200,OK,Thread Group 1-7,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772123379,3,Sign In,200,OK,Thread Group 1-20,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772123850,7,Login,200,OK,Thread Group 1-13,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772123850,5,Login-0,302,Found,Thread Group 1-13,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772123855,2,Login-1,200,OK,Thread Group 1-13,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772123888,4,Login,200,OK,Thread Group 1-8,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772123888,3,Login-0,302,Found,Thread Group 1-8,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772123891,1,Login-1,200,OK,Thread Group 1-8,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772123992,3,Sign In,200,OK,Thread Group 1-25,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772124074,8,Login,200,OK,Thread Group 1-14,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772124074,4,Login-0,302,Found,Thread Group 1-14,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772124078,4,Login-1,200,OK,Thread Group 1-14,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772124177,2,Reptiles,200,OK,Thread Group 1-5,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772124361,10,Sign Out,200,OK,Thread Group 1-2,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772124361,2,Sign Out-0,302,Found,Thread Group 1-2,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772124363,8,Sign Out-1,200,OK,Thread Group 1-2,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,8,0,0
+1684772124715,3,Reptiles,200,OK,Thread Group 1-3,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,3,0,0
+1684772124757,4,Sign Out,200,OK,Thread Group 1-4,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772124757,2,Sign Out-0,302,Found,Thread Group 1-4,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772124759,2,Sign Out-1,200,OK,Thread Group 1-4,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772124777,2,Reptiles,200,OK,Thread Group 1-6,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772124919,3,Reptiles,200,OK,Thread Group 1-9,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,3,0,0
+1684772125126,4,Login,200,OK,Thread Group 1-11,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772125126,2,Login-0,302,Found,Thread Group 1-11,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772125129,1,Login-1,200,OK,Thread Group 1-11,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772125191,5,Login,200,OK,Thread Group 1-18,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772125191,3,Login-0,302,Found,Thread Group 1-18,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772125194,2,Login-1,200,OK,Thread Group 1-18,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772125227,2,Sign In,200,OK,Thread Group 1-24,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772125251,5,Login,200,OK,Thread Group 1-17,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772125251,3,Login-0,302,Found,Thread Group 1-17,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772125254,2,Login-1,200,OK,Thread Group 1-17,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772125317,7,Login,200,OK,Thread Group 1-16,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772125317,5,Login-0,302,Found,Thread Group 1-16,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772125322,2,Login-1,200,OK,Thread Group 1-16,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772125357,7,Login,200,OK,Thread Group 1-10,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772125357,5,Login-0,302,Found,Thread Group 1-10,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772125362,2,Login-1,200,OK,Thread Group 1-10,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772125522,2,Reptiles,200,OK,Thread Group 1-12,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772125623,3,Reptiles,200,OK,Thread Group 1-13,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,3,0,0
+1684772125823,3,Reptiles,200,OK,Thread Group 1-14,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,3,0,0
+1684772125968,7,Sign Out,200,OK,Thread Group 1-5,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772125968,2,Sign Out-0,302,Found,Thread Group 1-5,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772125971,4,Sign Out-1,200,OK,Thread Group 1-5,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772125994,7,Login,200,OK,Thread Group 1-15,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772125994,4,Login-0,302,Found,Thread Group 1-15,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772125999,2,Login-1,200,OK,Thread Group 1-15,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772126018,3,Home,200,OK,Thread Group 1-1,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772126018,1,Home-0,302,Found,Thread Group 1-1,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772126019,2,Home-1,200,OK,Thread Group 1-1,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772126105,3,Sign Out,200,OK,Thread Group 1-7,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772126105,2,Sign Out-0,302,Found,Thread Group 1-7,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772126107,1,Sign Out-1,200,OK,Thread Group 1-7,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772126265,4,Home,200,OK,Thread Group 1-2,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772126265,1,Home-0,302,Found,Thread Group 1-2,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772126266,3,Home-1,200,OK,Thread Group 1-2,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,3,0,0
+1684772126534,6,Login,200,OK,Thread Group 1-22,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772126534,3,Login-0,302,Found,Thread Group 1-22,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772126538,2,Login-1,200,OK,Thread Group 1-22,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772126546,2,Reptiles,200,OK,Thread Group 1-8,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772126650,5,Sign Out,200,OK,Thread Group 1-6,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772126650,2,Sign Out-0,302,Found,Thread Group 1-6,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772126653,2,Sign Out-1,200,OK,Thread Group 1-6,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772126936,1,Reptiles,200,OK,Thread Group 1-18,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,1,0,0
+1684772126936,2,Reptiles,200,OK,Thread Group 1-16,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772127043,2,Home,200,OK,Thread Group 1-4,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772127043,1,Home-0,302,Found,Thread Group 1-4,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772127044,1,Home-1,200,OK,Thread Group 1-4,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772127454,4,Login,200,OK,Thread Group 1-20,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772127454,2,Login-0,302,Found,Thread Group 1-20,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772127456,2,Login-1,200,OK,Thread Group 1-20,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772127533,6,Sign Out,200,OK,Thread Group 1-9,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772127533,2,Sign Out-0,302,Found,Thread Group 1-9,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772127536,3,Sign Out-1,200,OK,Thread Group 1-9,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772127550,5,Login,200,OK,Thread Group 1-23,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772127550,4,Login-0,302,Found,Thread Group 1-23,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772127554,1,Login-1,200,OK,Thread Group 1-23,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772127696,5,Sign Out,200,OK,Thread Group 1-14,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772127696,2,Sign Out-0,302,Found,Thread Group 1-14,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772127698,3,Sign Out-1,200,OK,Thread Group 1-14,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772127841,2,Reptiles,200,OK,Thread Group 1-17,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772127913,11,Sign Out,200,OK,Thread Group 1-13,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772127913,1,Sign Out-0,302,Found,Thread Group 1-13,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772127915,9,Sign Out-1,200,OK,Thread Group 1-13,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,9,0,0
+1684772127999,2,Sign Out,200,OK,Thread Group 1-3,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772127999,1,Sign Out-0,302,Found,Thread Group 1-3,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772128000,1,Sign Out-1,200,OK,Thread Group 1-3,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772128046,1,Main Catalog,200,OK,Thread Group 1-1,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772128262,5,Login,200,OK,Thread Group 1-21,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772128262,4,Login-0,302,Found,Thread Group 1-21,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772128266,1,Login-1,200,OK,Thread Group 1-21,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772128269,5,Login,200,OK,Thread Group 1-19,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772128269,4,Login-0,302,Found,Thread Group 1-19,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772128273,1,Login-1,200,OK,Thread Group 1-19,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772128390,2,Main Catalog,200,OK,Thread Group 1-2,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772128505,2,Reptiles,200,OK,Thread Group 1-15,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772128556,4,Reptiles,200,OK,Thread Group 1-10,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,4,0,0
+1684772128606,1,Reptiles,200,OK,Thread Group 1-11,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,1,0,0
+1684772128769,2,Sign Out,200,OK,Thread Group 1-12,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772128769,1,Sign Out-0,302,Found,Thread Group 1-12,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772128770,1,Sign Out-1,200,OK,Thread Group 1-12,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772129061,7,Login,200,OK,Thread Group 1-25,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772129061,5,Login-0,302,Found,Thread Group 1-25,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772129066,2,Login-1,200,OK,Thread Group 1-25,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772129193,3,Login,200,OK,Thread Group 1-24,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772129193,2,Login-0,302,Found,Thread Group 1-24,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772129195,1,Login-1,200,OK,Thread Group 1-24,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772129221,4,Home,200,OK,Thread Group 1-5,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772129221,0,Home-0,302,Found,Thread Group 1-5,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772129221,4,Home-1,200,OK,Thread Group 1-5,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,4,0,0
+1684772129438,1,Home,200,OK,Thread Group 1-6,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772129438,0,Home-0,302,Found,Thread Group 1-6,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772129438,1,Home-1,200,OK,Thread Group 1-6,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772129439,2,Reptiles,200,OK,Thread Group 1-22,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772129520,1,Home,200,OK,Thread Group 1-7,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772129520,0,Home-0,302,Found,Thread Group 1-7,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772129520,1,Home-1,200,OK,Thread Group 1-7,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772129825,3,Reptiles,200,OK,Thread Group 1-21,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,3,0,0
+1684772129901,2,Reptiles,200,OK,Thread Group 1-19,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772129906,4,Sign Out,200,OK,Thread Group 1-8,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772129906,2,Sign Out-0,302,Found,Thread Group 1-8,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772129908,2,Sign Out-1,200,OK,Thread Group 1-8,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772129917,3,Sign Out,200,OK,Thread Group 1-18,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772129917,2,Sign Out-0,302,Found,Thread Group 1-18,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772129919,1,Sign Out-1,200,OK,Thread Group 1-18,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772129944,1,Sign In,200,OK,Thread Group 1-2,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772129987,3,Reptiles,200,OK,Thread Group 1-23,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,3,0,0
+1684772130025,5,Sign Out,200,OK,Thread Group 1-16,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772130025,2,Sign Out-0,302,Found,Thread Group 1-16,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772130028,2,Sign Out-1,200,OK,Thread Group 1-16,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772130144,5,Sign Out,200,OK,Thread Group 1-17,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772130144,1,Sign Out-0,302,Found,Thread Group 1-17,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772130146,3,Sign Out-1,200,OK,Thread Group 1-17,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772130248,2,Home,200,OK,Thread Group 1-9,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772130248,1,Home-0,302,Found,Thread Group 1-9,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772130249,1,Home-1,200,OK,Thread Group 1-9,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772130505,3,Main Catalog,200,OK,Thread Group 1-4,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772130733,3,Home,200,OK,Thread Group 1-14,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772130733,1,Home-0,302,Found,Thread Group 1-14,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772130734,2,Home-1,200,OK,Thread Group 1-14,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772130836,1,Reptiles,200,OK,Thread Group 1-24,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,1,0,0
+1684772130881,2,Reptiles,200,OK,Thread Group 1-20,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,2,0,0
+1684772130994,1,Home,200,OK,Thread Group 1-13,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772130994,1,Home-0,302,Found,Thread Group 1-13,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772130995,0,Home-1,200,OK,Thread Group 1-13,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772131037,3,Sign Out,200,OK,Thread Group 1-22,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772131037,1,Sign Out-0,302,Found,Thread Group 1-22,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772131039,1,Sign Out-1,200,OK,Thread Group 1-22,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772131133,2,Sign Out,200,OK,Thread Group 1-11,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772131133,1,Sign Out-0,302,Found,Thread Group 1-11,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772131134,1,Sign Out-1,200,OK,Thread Group 1-11,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772131153,2,Sign Out,200,OK,Thread Group 1-10,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772131153,1,Sign Out-0,302,Found,Thread Group 1-10,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772131154,1,Sign Out-1,200,OK,Thread Group 1-10,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772131291,6,Sign Out,200,OK,Thread Group 1-15,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772131291,1,Sign Out-0,302,Found,Thread Group 1-15,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772131292,5,Sign Out-1,200,OK,Thread Group 1-15,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772131372,1,Home,200,OK,Thread Group 1-3,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772131372,0,Home-0,302,Found,Thread Group 1-3,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772131372,1,Home-1,200,OK,Thread Group 1-3,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772131497,2,Sign In,200,OK,Thread Group 1-1,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772131676,2,Main Catalog,200,OK,Thread Group 1-7,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772131760,2,Main Catalog,200,OK,Thread Group 1-6,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772131922,2,Main Catalog,200,OK,Thread Group 1-5,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772131972,3,Reptiles,200,OK,Thread Group 1-25,text,true,,3712,252,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=REPTILES,3,0,0
+1684772132167,3,Home,200,OK,Thread Group 1-12,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772132167,1,Home-0,302,Found,Thread Group 1-12,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772132168,2,Home-1,200,OK,Thread Group 1-12,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772132296,7,Sign Out,200,OK,Thread Group 1-19,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772132296,5,Sign Out-0,302,Found,Thread Group 1-19,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,5,0,0
+1684772132301,2,Sign Out-1,200,OK,Thread Group 1-19,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772132376,2,Home,200,OK,Thread Group 1-18,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772132376,1,Home-0,302,Found,Thread Group 1-18,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772132377,1,Home-1,200,OK,Thread Group 1-18,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772132425,4,Home,200,OK,Thread Group 1-16,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772132425,0,Home-0,302,Found,Thread Group 1-16,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772132426,3,Home-1,200,OK,Thread Group 1-16,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,3,0,0
+1684772132577,1,Main Catalog,200,OK,Thread Group 1-9,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772132690,7,Sign Out,200,OK,Thread Group 1-24,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772132690,2,Sign Out-0,302,Found,Thread Group 1-24,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772132693,4,Sign Out-1,200,OK,Thread Group 1-24,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772132874,2,Home,200,OK,Thread Group 1-17,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772132874,1,Home-0,302,Found,Thread Group 1-17,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772132875,1,Home-1,200,OK,Thread Group 1-17,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772132965,6,Sign Out,200,OK,Thread Group 1-21,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772132965,2,Sign Out-0,302,Found,Thread Group 1-21,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772132967,4,Sign Out-1,200,OK,Thread Group 1-21,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772133076,2,Home,200,OK,Thread Group 1-8,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772133076,1,Home-0,302,Found,Thread Group 1-8,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772133077,1,Home-1,200,OK,Thread Group 1-8,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772133181,2,Main Catalog,200,OK,Thread Group 1-14,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772133333,2,Sign Out,200,OK,Thread Group 1-23,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772133333,1,Sign Out-0,302,Found,Thread Group 1-23,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772133334,1,Sign Out-1,200,OK,Thread Group 1-23,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772133404,2,Sign In,200,OK,Thread Group 1-6,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772133490,1,Sign In,200,OK,Thread Group 1-4,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772133883,3,Main Catalog,200,OK,Thread Group 1-13,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772133905,4,Home,200,OK,Thread Group 1-15,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,4,0,0
+1684772133905,4,Home-0,302,Found,Thread Group 1-15,,true,,146,195,25,25,http://localhost:8080/jpetstore,4,0,0
+1684772133909,0,Home-1,200,OK,Thread Group 1-15,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772133903,7,Sign Out,200,OK,Thread Group 1-20,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772133903,2,Sign Out-0,302,Found,Thread Group 1-20,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772133905,5,Sign Out-1,200,OK,Thread Group 1-20,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772133937,4,Main Catalog,200,OK,Thread Group 1-3,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772133988,5,Home,200,OK,Thread Group 1-10,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772133988,1,Home-0,302,Found,Thread Group 1-10,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772133989,4,Home-1,200,OK,Thread Group 1-10,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,4,0,0
+1684772134012,2,Main Catalog,200,OK,Thread Group 1-12,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772134033,2,Home,200,OK,Thread Group 1-22,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772134033,1,Home-0,302,Found,Thread Group 1-22,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772134034,1,Home-1,200,OK,Thread Group 1-22,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772134157,3,Sign In,200,OK,Thread Group 1-7,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772134346,1,Home,200,OK,Thread Group 1-11,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772134346,1,Home-0,302,Found,Thread Group 1-11,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772134347,0,Home-1,200,OK,Thread Group 1-11,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772134441,2,Home,200,OK,Thread Group 1-19,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772134441,1,Home-0,302,Found,Thread Group 1-19,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772134443,0,Home-1,200,OK,Thread Group 1-19,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772134560,3,Sign In,200,OK,Thread Group 1-5,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772134846,1,Main Catalog,200,OK,Thread Group 1-18,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772135113,1,Main Catalog,200,OK,Thread Group 1-8,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772135134,2,Sign Out,200,OK,Thread Group 1-25,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772135134,1,Sign Out-0,302,Found,Thread Group 1-25,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772135135,1,Sign Out-1,200,OK,Thread Group 1-25,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772135186,2,Sign In,200,OK,Thread Group 1-9,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772135435,1,Home,200,OK,Thread Group 1-23,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772135435,0,Home-0,302,Found,Thread Group 1-23,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772135435,1,Home-1,200,OK,Thread Group 1-23,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772135456,4,Login,200,OK,Thread Group 1-2,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772135456,3,Login-0,302,Found,Thread Group 1-2,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772135460,0,Login-1,200,OK,Thread Group 1-2,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,0,0,0
+1684772135465,1,Main Catalog,200,OK,Thread Group 1-16,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772135554,3,Sign In,200,OK,Thread Group 1-14,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772135555,3,Home,200,OK,Thread Group 1-24,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772135555,2,Home-0,302,Found,Thread Group 1-24,,true,,146,195,25,25,http://localhost:8080/jpetstore,2,0,0
+1684772135557,1,Home-1,200,OK,Thread Group 1-24,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772135741,2,Sign In,200,OK,Thread Group 1-3,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772135743,2,Main Catalog,200,OK,Thread Group 1-10,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772136017,2,Home,200,OK,Thread Group 1-21,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772136017,1,Home-0,302,Found,Thread Group 1-21,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772136018,1,Home-1,200,OK,Thread Group 1-21,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772136329,1,Main Catalog,200,OK,Thread Group 1-17,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772136393,3,Sign In,200,OK,Thread Group 1-13,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772136493,1,Sign In,200,OK,Thread Group 1-12,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772136616,2,Main Catalog,200,OK,Thread Group 1-22,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772136674,2,Main Catalog,200,OK,Thread Group 1-19,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772136686,5,Login,200,OK,Thread Group 1-1,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772136686,4,Login-0,302,Found,Thread Group 1-1,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772136690,1,Login-1,200,OK,Thread Group 1-1,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772136696,2,Sign In,200,OK,Thread Group 1-8,text,true,,3919,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772136973,2,Dogs,200,OK,Thread Group 1-2,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,2,0,0
+1684772136989,4,Main Catalog,200,OK,Thread Group 1-15,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772137332,3,Home,200,OK,Thread Group 1-20,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772137332,0,Home-0,302,Found,Thread Group 1-20,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772137332,3,Home-1,200,OK,Thread Group 1-20,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,3,0,0
+1684772137791,1,Sign In,200,OK,Thread Group 1-10,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772137809,1,Main Catalog,200,OK,Thread Group 1-11,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772137815,1,Main Catalog,200,OK,Thread Group 1-24,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772138001,1,Sign In,200,OK,Thread Group 1-17,text,true,,3919,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772138172,12,Login,200,OK,Thread Group 1-4,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772138172,1,Login-0,302,Found,Thread Group 1-4,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,1,0,0
+1684772138173,11,Login-1,200,OK,Thread Group 1-4,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,11,0,0
+1684772138329,1,Sign In,200,OK,Thread Group 1-18,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772138374,1,Main Catalog,200,OK,Thread Group 1-23,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772138430,7,Login,200,OK,Thread Group 1-7,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772138430,1,Login-0,302,Found,Thread Group 1-7,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,1,0,0
+1684772138431,6,Login-1,200,OK,Thread Group 1-7,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,6,0,0
+1684772138447,1,Sign In,200,OK,Thread Group 1-16,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772138514,3,Home,200,OK,Thread Group 1-25,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772138514,1,Home-0,302,Found,Thread Group 1-25,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772138515,2,Home-1,200,OK,Thread Group 1-25,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772138526,2,Sign In,200,OK,Thread Group 1-19,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772138551,3,Login,200,OK,Thread Group 1-5,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772138551,2,Login-0,302,Found,Thread Group 1-5,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772138553,1,Login-1,200,OK,Thread Group 1-5,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772138741,1,Sign In,200,OK,Thread Group 1-22,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772138765,5,Login,200,OK,Thread Group 1-6,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772138765,4,Login-0,302,Found,Thread Group 1-6,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772138770,0,Login-1,200,OK,Thread Group 1-6,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,0,0,0
+1684772139014,17,Sign Out,200,OK,Thread Group 1-2,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772139014,1,Sign Out-0,302,Found,Thread Group 1-2,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772139015,16,Sign Out-1,200,OK,Thread Group 1-2,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,16,0,0
+1684772139039,1,Dogs,200,OK,Thread Group 1-1,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,1,0,0
+1684772139135,2,Login,200,OK,Thread Group 1-14,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772139135,1,Login-0,302,Found,Thread Group 1-14,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,1,0,0
+1684772139136,1,Login-1,200,OK,Thread Group 1-14,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772139335,1,Main Catalog,200,OK,Thread Group 1-20,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772139357,1,Main Catalog,200,OK,Thread Group 1-21,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,0,0,0
+1684772139805,5,Login,200,OK,Thread Group 1-9,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772139805,3,Login-0,302,Found,Thread Group 1-9,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772139808,2,Login-1,200,OK,Thread Group 1-9,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772139905,2,Sign In,200,OK,Thread Group 1-15,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772139919,3,Dogs,200,OK,Thread Group 1-4,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772140267,3,Dogs,200,OK,Thread Group 1-5,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772140303,5,Login,200,OK,Thread Group 1-3,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772140303,3,Login-0,302,Found,Thread Group 1-3,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772140306,2,Login-1,200,OK,Thread Group 1-3,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772140343,3,Sign In,200,OK,Thread Group 1-11,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772140565,3,Dogs,200,OK,Thread Group 1-6,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772140644,6,Login,200,OK,Thread Group 1-12,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772140644,3,Login-0,302,Found,Thread Group 1-12,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772140647,3,Login-1,200,OK,Thread Group 1-12,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772141072,2,Home,200,OK,Thread Group 1-2,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772141072,1,Home-0,302,Found,Thread Group 1-2,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772141073,1,Home-1,200,OK,Thread Group 1-2,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772141120,2,Sign In,200,OK,Thread Group 1-24,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772141173,3,Dogs,200,OK,Thread Group 1-14,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772141285,3,Sign In,200,OK,Thread Group 1-23,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772141287,2,Main Catalog,200,OK,Thread Group 1-25,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772141444,12,Login,200,OK,Thread Group 1-13,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,9,0,0
+1684772141444,9,Login-0,302,Found,Thread Group 1-13,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,9,0,0
+1684772141453,3,Login-1,200,OK,Thread Group 1-13,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772141590,7,Sign Out,200,OK,Thread Group 1-1,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772141590,4,Sign Out-0,302,Found,Thread Group 1-1,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,4,0,0
+1684772141594,3,Sign Out-1,200,OK,Thread Group 1-1,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772141627,1,Dogs,200,OK,Thread Group 1-9,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,1,0,0
+1684772141810,3,Sign Out,200,OK,Thread Group 1-4,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772141810,2,Sign Out-0,302,Found,Thread Group 1-4,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772141812,1,Sign Out-1,200,OK,Thread Group 1-4,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,0,0,0
+1684772141915,3,Dogs,200,OK,Thread Group 1-7,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772141934,4,Login,200,OK,Thread Group 1-8,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772141934,3,Login-0,302,Found,Thread Group 1-8,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772141937,1,Login-1,200,OK,Thread Group 1-8,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772141953,1,Sign In,200,OK,Thread Group 1-21,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772142291,3,Login,200,OK,Thread Group 1-10,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772142291,2,Login-0,302,Found,Thread Group 1-10,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772142293,1,Login-1,200,OK,Thread Group 1-10,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772142382,8,Login,200,OK,Thread Group 1-17,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772142382,2,Login-0,302,Found,Thread Group 1-17,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772142384,6,Login-1,200,OK,Thread Group 1-17,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,6,0,0
+1684772142486,9,Login,200,OK,Thread Group 1-18,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772142486,2,Login-0,302,Found,Thread Group 1-18,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772142489,6,Login-1,200,OK,Thread Group 1-18,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,6,0,0
+1684772142533,2,Dogs,200,OK,Thread Group 1-3,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,2,0,0
+1684772142596,3,Sign In,200,OK,Thread Group 1-20,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772143061,5,Sign Out,200,OK,Thread Group 1-5,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772143061,2,Sign Out-0,302,Found,Thread Group 1-5,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772143063,3,Sign Out-1,200,OK,Thread Group 1-5,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772143229,4,Sign Out,200,OK,Thread Group 1-9,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772143229,2,Sign Out-0,302,Found,Thread Group 1-9,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772143231,2,Sign Out-1,200,OK,Thread Group 1-9,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772143449,2,Dogs,200,OK,Thread Group 1-13,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,2,0,0
+1684772143481,5,Login,200,OK,Thread Group 1-19,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772143481,3,Login-0,302,Found,Thread Group 1-19,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772143485,1,Login-1,200,OK,Thread Group 1-19,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,0,0,0
+1684772143555,1,Home,200,OK,Thread Group 1-1,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772143555,1,Home-0,302,Found,Thread Group 1-1,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772143556,0,Home-1,200,OK,Thread Group 1-1,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772143555,4,Login,200,OK,Thread Group 1-16,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772143555,3,Login-0,302,Found,Thread Group 1-16,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772143558,1,Login-1,200,OK,Thread Group 1-16,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772143637,1,Main Catalog,200,OK,Thread Group 1-2,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772143778,2,Dogs,200,OK,Thread Group 1-12,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,2,0,0
+1684772143888,6,Login,200,OK,Thread Group 1-22,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772143888,5,Login-0,302,Found,Thread Group 1-22,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772143893,1,Login-1,200,OK,Thread Group 1-22,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772143926,1,Dogs,200,OK,Thread Group 1-8,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,1,0,0
+1684772143998,6,Sign Out,200,OK,Thread Group 1-6,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772143998,4,Sign Out-0,302,Found,Thread Group 1-6,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,4,0,0
+1684772144002,2,Sign Out-1,200,OK,Thread Group 1-6,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772144081,4,Sign Out,200,OK,Thread Group 1-14,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772144081,2,Sign Out-0,302,Found,Thread Group 1-14,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772144083,2,Sign Out-1,200,OK,Thread Group 1-14,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772144265,3,Sign In,200,OK,Thread Group 1-25,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772144308,4,Sign Out,200,OK,Thread Group 1-7,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772144308,2,Sign Out-0,302,Found,Thread Group 1-7,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772144310,2,Sign Out-1,200,OK,Thread Group 1-7,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772144725,2,Dogs,200,OK,Thread Group 1-17,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,2,0,0
+1684772144905,2,Sign Out,200,OK,Thread Group 1-3,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772144905,1,Sign Out-0,302,Found,Thread Group 1-3,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772144906,1,Sign Out-1,200,OK,Thread Group 1-3,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772144976,4,Dogs,200,OK,Thread Group 1-10,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,4,0,0
+1684772144979,1,Home,200,OK,Thread Group 1-9,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772144979,0,Home-0,302,Found,Thread Group 1-9,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772144979,1,Home-1,200,OK,Thread Group 1-9,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772145028,1,Home,200,OK,Thread Group 1-4,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772145028,0,Home-0,302,Found,Thread Group 1-4,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772145028,1,Home-1,200,OK,Thread Group 1-4,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772145055,3,Login,200,OK,Thread Group 1-11,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772145055,1,Login-0,302,Found,Thread Group 1-11,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,1,0,0
+1684772145056,2,Login-1,200,OK,Thread Group 1-11,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772145154,2,Login,200,OK,Thread Group 1-23,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772145154,1,Login-0,302,Found,Thread Group 1-23,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,1,0,0
+1684772145155,1,Login-1,200,OK,Thread Group 1-23,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772145269,1,Dogs,200,OK,Thread Group 1-18,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,1,0,0
+1684772145305,8,Login,200,OK,Thread Group 1-15,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772145305,4,Login-0,302,Found,Thread Group 1-15,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772145309,4,Login-1,200,OK,Thread Group 1-15,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772145702,1,Home,200,OK,Thread Group 1-14,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772145702,1,Home-0,302,Found,Thread Group 1-14,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772145703,0,Home-1,200,OK,Thread Group 1-14,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772145740,2,Login,200,OK,Thread Group 1-24,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772145740,1,Login-0,302,Found,Thread Group 1-24,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,1,0,0
+1684772145741,1,Login-1,200,OK,Thread Group 1-24,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772145965,5,Home,200,OK,Thread Group 1-5,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772145965,2,Home-0,302,Found,Thread Group 1-5,,true,,146,195,25,25,http://localhost:8080/jpetstore,2,0,0
+1684772145967,3,Home-1,200,OK,Thread Group 1-5,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,3,0,0
+1684772145987,1,Dogs,200,OK,Thread Group 1-19,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,1,0,0
+1684772146329,4,Sign Out,200,OK,Thread Group 1-13,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772146329,2,Sign Out-0,302,Found,Thread Group 1-13,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772146331,2,Sign Out-1,200,OK,Thread Group 1-13,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772146508,6,Home,200,OK,Thread Group 1-6,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,5,0,0
+1684772146508,5,Home-0,302,Found,Thread Group 1-6,,true,,146,195,25,25,http://localhost:8080/jpetstore,5,0,0
+1684772146513,1,Home-1,200,OK,Thread Group 1-6,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772146588,4,Login,200,OK,Thread Group 1-21,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772146588,2,Login-0,302,Found,Thread Group 1-21,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772146590,2,Login-1,200,OK,Thread Group 1-21,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772146651,2,Main Catalog,200,OK,Thread Group 1-9,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772146652,5,Sign Out,200,OK,Thread Group 1-12,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772146652,2,Sign Out-0,302,Found,Thread Group 1-12,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772146654,3,Sign Out-1,200,OK,Thread Group 1-12,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772146710,3,Home,200,OK,Thread Group 1-7,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772146710,1,Home-0,302,Found,Thread Group 1-7,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772146712,1,Home-1,200,OK,Thread Group 1-7,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772146733,2,Main Catalog,200,OK,Thread Group 1-4,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772146782,3,Dogs,200,OK,Thread Group 1-22,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772146886,16,Dogs,200,OK,Thread Group 1-15,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,16,0,0
+1684772146893,9,Sign In,200,OK,Thread Group 1-2,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,9,0,0
+1684772146885,18,Dogs,200,OK,Thread Group 1-16,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,18,0,0
+1684772146913,1,Sign Out,200,OK,Thread Group 1-17,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772146913,1,Sign Out-0,302,Found,Thread Group 1-17,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772146914,0,Sign Out-1,200,OK,Thread Group 1-17,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,0,0,0
+1684772147014,1,Home,200,OK,Thread Group 1-3,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772147014,0,Home-0,302,Found,Thread Group 1-3,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772147015,0,Home-1,200,OK,Thread Group 1-3,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772147031,3,Dogs,200,OK,Thread Group 1-11,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772147049,2,Main Catalog,200,OK,Thread Group 1-1,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772147375,7,Sign Out,200,OK,Thread Group 1-8,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772147375,2,Sign Out-0,302,Found,Thread Group 1-8,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772147377,5,Sign Out-1,200,OK,Thread Group 1-8,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772147616,5,Sign Out,200,OK,Thread Group 1-10,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772147616,2,Sign Out-0,302,Found,Thread Group 1-10,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772147619,2,Sign Out-1,200,OK,Thread Group 1-10,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772147644,5,Sign Out,200,OK,Thread Group 1-18,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772147644,2,Sign Out-0,302,Found,Thread Group 1-18,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772147646,3,Sign Out-1,200,OK,Thread Group 1-18,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772148001,3,Home,200,OK,Thread Group 1-13,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772148001,1,Home-0,302,Found,Thread Group 1-13,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772148003,1,Home-1,200,OK,Thread Group 1-13,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772148060,6,Login,200,OK,Thread Group 1-20,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772148060,5,Login-0,302,Found,Thread Group 1-20,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772148065,1,Login-1,200,OK,Thread Group 1-20,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772148452,2,Main Catalog,200,OK,Thread Group 1-14,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772148479,6,Sign Out,200,OK,Thread Group 1-22,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772148479,3,Sign Out-0,302,Found,Thread Group 1-22,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,3,0,0
+1684772148482,3,Sign Out-1,200,OK,Thread Group 1-22,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772148526,3,Dogs,200,OK,Thread Group 1-23,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772148665,5,Sign Out,200,OK,Thread Group 1-19,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772148665,2,Sign Out-0,302,Found,Thread Group 1-19,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772148667,3,Sign Out-1,200,OK,Thread Group 1-19,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772148671,7,Sign Out,200,OK,Thread Group 1-16,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772148671,2,Sign Out-0,302,Found,Thread Group 1-16,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772148673,5,Sign Out-1,200,OK,Thread Group 1-16,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772148780,2,Main Catalog,200,OK,Thread Group 1-7,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772148819,3,Sign In,200,OK,Thread Group 1-4,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772148840,4,Sign Out,200,OK,Thread Group 1-11,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772148840,2,Sign Out-0,302,Found,Thread Group 1-11,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772148842,2,Sign Out-1,200,OK,Thread Group 1-11,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772148909,5,Sign Out,200,OK,Thread Group 1-15,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772148909,3,Sign Out-0,302,Found,Thread Group 1-15,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,3,0,0
+1684772148912,2,Sign Out-1,200,OK,Thread Group 1-15,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772148967,2,Main Catalog,200,OK,Thread Group 1-6,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772149041,3,Dogs,200,OK,Thread Group 1-24,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,2,0,0
+1684772149149,2,Home,200,OK,Thread Group 1-10,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772149149,1,Home-0,302,Found,Thread Group 1-10,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772149150,1,Home-1,200,OK,Thread Group 1-10,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772149332,2,Home,200,OK,Thread Group 1-17,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772149332,1,Home-0,302,Found,Thread Group 1-17,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772149333,1,Home-1,200,OK,Thread Group 1-17,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772149360,2,Main Catalog,200,OK,Thread Group 1-5,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772149488,2,Dogs,200,OK,Thread Group 1-21,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,2,0,0
+1684772149485,7,Login,200,OK,Thread Group 1-25,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772149485,5,Login-0,302,Found,Thread Group 1-25,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772149490,2,Login-1,200,OK,Thread Group 1-25,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772149503,2,Main Catalog,200,OK,Thread Group 1-3,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772149773,2,Home,200,OK,Thread Group 1-12,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772149773,1,Home-0,302,Found,Thread Group 1-12,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772149774,1,Home-1,200,OK,Thread Group 1-12,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772150019,2,Sign In,200,OK,Thread Group 1-9,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772150142,3,Home,200,OK,Thread Group 1-8,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772150142,1,Home-0,302,Found,Thread Group 1-8,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772150143,2,Home-1,200,OK,Thread Group 1-8,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772150282,2,Main Catalog,200,OK,Thread Group 1-13,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772150391,3,Dogs,200,OK,Thread Group 1-20,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,3,0,0
+1684772150411,1,Home,200,OK,Thread Group 1-18,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772150411,1,Home-0,302,Found,Thread Group 1-18,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772150412,0,Home-1,200,OK,Thread Group 1-18,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772150462,2,Sign In,200,OK,Thread Group 1-7,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772150464,1,Home,200,OK,Thread Group 1-19,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772150464,1,Home-0,302,Found,Thread Group 1-19,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772150465,0,Home-1,200,OK,Thread Group 1-19,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772150468,2,Sign Out,200,OK,Thread Group 1-23,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772150468,1,Sign Out-0,302,Found,Thread Group 1-23,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772150469,1,Sign Out-1,200,OK,Thread Group 1-23,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772150522,1,Sign In,200,OK,Thread Group 1-1,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772150719,7,Sign Out,200,OK,Thread Group 1-24,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772150719,3,Sign Out-0,302,Found,Thread Group 1-24,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,3,0,0
+1684772150722,4,Sign Out-1,200,OK,Thread Group 1-24,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772150787,3,Sign In,200,OK,Thread Group 1-6,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772150953,2,Main Catalog,200,OK,Thread Group 1-10,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772151043,5,Login,200,OK,Thread Group 1-2,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772151043,3,Login-0,302,Found,Thread Group 1-2,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772151046,2,Login-1,200,OK,Thread Group 1-2,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772151063,2,Dogs,200,OK,Thread Group 1-25,text,true,,4296,248,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=DOGS,2,0,0
+1684772151105,3,Sign In,200,OK,Thread Group 1-14,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772151631,1,Home,200,OK,Thread Group 1-15,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772151631,0,Home-0,302,Found,Thread Group 1-15,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772151632,0,Home-1,200,OK,Thread Group 1-15,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772151694,6,Home,200,OK,Thread Group 1-11,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772151694,1,Home-0,302,Found,Thread Group 1-11,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772151695,5,Home-1,200,OK,Thread Group 1-11,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,5,0,0
+1684772151766,5,Sign Out,200,OK,Thread Group 1-21,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772151766,1,Sign Out-0,302,Found,Thread Group 1-21,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772151767,4,Sign Out-1,200,OK,Thread Group 1-21,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772151779,2,Home,200,OK,Thread Group 1-22,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772151779,0,Home-0,302,Found,Thread Group 1-22,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772151779,2,Home-1,200,OK,Thread Group 1-22,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772151896,2,Sign In,200,OK,Thread Group 1-3,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772152017,4,Home,200,OK,Thread Group 1-16,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772152017,1,Home-0,302,Found,Thread Group 1-16,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772152018,3,Home-1,200,OK,Thread Group 1-16,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,3,0,0
+1684772152069,2,Sign In,200,OK,Thread Group 1-5,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772152104,1,Home,200,OK,Thread Group 1-23,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772152104,1,Home-0,302,Found,Thread Group 1-23,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772152105,0,Home-1,200,OK,Thread Group 1-23,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772152129,1,Main Catalog,200,OK,Thread Group 1-18,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772152188,1,Sign In,200,OK,Thread Group 1-13,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772152256,4,Sign Out,200,OK,Thread Group 1-20,text,true,,6095,1006,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772152256,2,Sign Out-0,302,Found,Thread Group 1-20,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772152258,2,Sign Out-1,200,OK,Thread Group 1-20,text,true,,5762,464,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772152348,2,Main Catalog,200,OK,Thread Group 1-17,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772152929,2,Main Catalog,200,OK,Thread Group 1-19,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772153004,4,Sign In,200,OK,Thread Group 1-10,text,true,,3919,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,4,0,0
+1684772153147,1,Main Catalog,200,OK,Thread Group 1-12,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772153238,2,Main Catalog,200,OK,Thread Group 1-8,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772153564,8,Sign Out,200,OK,Thread Group 1-25,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772153564,1,Sign Out-0,302,Found,Thread Group 1-25,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772153565,7,Sign Out-1,200,OK,Thread Group 1-25,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,7,0,0
+1684772153622,1,Main Catalog,200,OK,Thread Group 1-23,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772153715,2,Main Catalog,200,OK,Thread Group 1-15,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772153769,5,Login,200,OK,Thread Group 1-9,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772153769,3,Login-0,302,Found,Thread Group 1-9,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772153772,2,Login-1,200,OK,Thread Group 1-9,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772153794,1,Home,200,OK,Thread Group 1-20,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772153794,0,Home-0,302,Found,Thread Group 1-20,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772153795,0,Home-1,200,OK,Thread Group 1-20,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772153910,2,Home,200,OK,Thread Group 1-24,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772153910,1,Home-0,302,Found,Thread Group 1-24,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772153911,1,Home-1,200,OK,Thread Group 1-24,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772153959,1,Main Catalog,200,OK,Thread Group 1-22,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772153958,4,Login,200,OK,Thread Group 1-4,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772153958,3,Login-0,302,Found,Thread Group 1-4,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772153961,1,Login-1,200,OK,Thread Group 1-4,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772154354,3,Birds,200,OK,Thread Group 1-2,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772154380,2,Main Catalog,200,OK,Thread Group 1-11,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772154465,4,Home,200,OK,Thread Group 1-21,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772154465,0,Home-0,302,Found,Thread Group 1-21,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772154465,4,Home-1,200,OK,Thread Group 1-21,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,4,0,0
+1684772155063,5,Login,200,OK,Thread Group 1-6,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772155063,3,Login-0,302,Found,Thread Group 1-6,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772155066,2,Login-1,200,OK,Thread Group 1-6,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772155087,7,Login,200,OK,Thread Group 1-7,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772155087,2,Login-0,302,Found,Thread Group 1-7,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772155089,5,Login-1,200,OK,Thread Group 1-7,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772155142,1,Sign In,200,OK,Thread Group 1-23,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772155142,2,Sign In,200,OK,Thread Group 1-19,text,true,,3919,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772155189,2,Sign In,200,OK,Thread Group 1-8,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772155346,2,Main Catalog,200,OK,Thread Group 1-16,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772155451,5,Login,200,OK,Thread Group 1-1,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772155451,4,Login-0,302,Found,Thread Group 1-1,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772155455,1,Login-1,200,OK,Thread Group 1-1,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772155458,4,Login,200,OK,Thread Group 1-14,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772155458,2,Login-0,302,Found,Thread Group 1-14,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772155460,2,Login-1,200,OK,Thread Group 1-14,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772155469,2,Sign In,200,OK,Thread Group 1-18,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772155675,1,Sign In,200,OK,Thread Group 1-17,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772155708,1,Birds,200,OK,Thread Group 1-9,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,1,0,0
+1684772155825,4,Login,200,OK,Thread Group 1-13,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772155825,2,Login-0,302,Found,Thread Group 1-13,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772155828,1,Login-1,200,OK,Thread Group 1-13,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772155886,2,Main Catalog,200,OK,Thread Group 1-20,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772155930,3,Sign In,200,OK,Thread Group 1-15,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772156108,3,Sign In,200,OK,Thread Group 1-12,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772156131,5,Sign Out,200,OK,Thread Group 1-2,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772156131,1,Sign Out-0,302,Found,Thread Group 1-2,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772156132,4,Sign Out-1,200,OK,Thread Group 1-2,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772156228,2,Sign In,200,OK,Thread Group 1-22,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772156543,2,Home,200,OK,Thread Group 1-25,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772156543,2,Home-0,302,Found,Thread Group 1-25,,true,,146,195,25,25,http://localhost:8080/jpetstore,2,0,0
+1684772156545,0,Home-1,200,OK,Thread Group 1-25,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772156544,2,Main Catalog,200,OK,Thread Group 1-21,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772156767,2,Main Catalog,200,OK,Thread Group 1-24,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772156927,3,Birds,200,OK,Thread Group 1-6,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772157021,8,Login,200,OK,Thread Group 1-3,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,6,0,0
+1684772157021,6,Login-0,302,Found,Thread Group 1-3,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,6,0,0
+1684772157027,2,Login-1,200,OK,Thread Group 1-3,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772157061,1,Sign In,200,OK,Thread Group 1-11,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,1,0,0
+1684772157064,2,Birds,200,OK,Thread Group 1-4,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772157164,6,Login,200,OK,Thread Group 1-10,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772157164,3,Login-0,302,Found,Thread Group 1-10,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772157167,3,Login-1,200,OK,Thread Group 1-10,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772157273,6,Login,200,OK,Thread Group 1-5,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772157273,4,Login-0,302,Found,Thread Group 1-5,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772157277,2,Login-1,200,OK,Thread Group 1-5,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772157661,2,Birds,200,OK,Thread Group 1-14,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772157915,3,Birds,200,OK,Thread Group 1-13,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772157958,3,Sign In,200,OK,Thread Group 1-16,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772158069,2,Birds,200,OK,Thread Group 1-7,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772158100,2,Birds,200,OK,Thread Group 1-1,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772158200,3,Sign In,200,OK,Thread Group 1-20,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772158478,2,Home,200,OK,Thread Group 1-2,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772158478,1,Home-0,302,Found,Thread Group 1-2,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772158479,1,Home-1,200,OK,Thread Group 1-2,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772158603,4,Sign Out,200,OK,Thread Group 1-4,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772158603,2,Sign Out-0,302,Found,Thread Group 1-4,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772158606,1,Sign Out-1,200,OK,Thread Group 1-4,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772158757,4,Login,200,OK,Thread Group 1-19,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772158757,2,Login-0,302,Found,Thread Group 1-19,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772158760,1,Login-1,200,OK,Thread Group 1-19,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772158765,3,Birds,200,OK,Thread Group 1-10,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772158775,1,Main Catalog,200,OK,Thread Group 1-25,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772158806,2,Sign In,200,OK,Thread Group 1-21,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772158973,2,Birds,200,OK,Thread Group 1-3,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772159050,4,Sign Out,200,OK,Thread Group 1-9,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772159050,2,Sign Out-0,302,Found,Thread Group 1-9,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772159052,2,Sign Out-1,200,OK,Thread Group 1-9,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772159112,6,Login,200,OK,Thread Group 1-8,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772159112,2,Login-0,302,Found,Thread Group 1-8,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772159114,4,Login-1,200,OK,Thread Group 1-8,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772159242,3,Sign In,200,OK,Thread Group 1-24,text,true,,3925,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772159576,3,Sign Out,200,OK,Thread Group 1-13,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772159576,1,Sign Out-0,302,Found,Thread Group 1-13,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772159577,2,Sign Out-1,200,OK,Thread Group 1-13,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772159688,3,Sign Out,200,OK,Thread Group 1-14,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772159688,2,Sign Out-0,302,Found,Thread Group 1-14,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772159690,1,Sign Out-1,200,OK,Thread Group 1-14,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772159739,11,Login,200,OK,Thread Group 1-17,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772159739,2,Login-0,302,Found,Thread Group 1-17,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772159741,9,Login-1,200,OK,Thread Group 1-17,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,9,0,0
+1684772159935,3,Sign Out,200,OK,Thread Group 1-6,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772159935,2,Sign Out-0,302,Found,Thread Group 1-6,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772159937,1,Sign Out-1,200,OK,Thread Group 1-6,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772160012,4,Login,200,OK,Thread Group 1-22,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772160012,3,Login-0,302,Found,Thread Group 1-22,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772160015,1,Login-1,200,OK,Thread Group 1-22,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772160037,2,Birds,200,OK,Thread Group 1-5,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772160044,5,Login,200,OK,Thread Group 1-15,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772160044,1,Login-0,302,Found,Thread Group 1-15,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,1,0,0
+1684772160045,4,Login-1,200,OK,Thread Group 1-15,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772160250,4,Login,200,OK,Thread Group 1-18,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772160250,3,Login-0,302,Found,Thread Group 1-18,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772160253,1,Login-1,200,OK,Thread Group 1-18,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772160488,1,Main Catalog,200,OK,Thread Group 1-2,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772160646,3,Login,200,OK,Thread Group 1-23,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772160646,2,Login-0,302,Found,Thread Group 1-23,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772160648,1,Login-1,200,OK,Thread Group 1-23,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772160714,2,Sign Out,200,OK,Thread Group 1-1,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772160714,1,Sign Out-0,302,Found,Thread Group 1-1,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772160716,0,Sign Out-1,200,OK,Thread Group 1-1,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,0,0,0
+1684772160829,3,Birds,200,OK,Thread Group 1-19,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772160867,4,Login,200,OK,Thread Group 1-11,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772160867,2,Login-0,302,Found,Thread Group 1-11,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772160869,2,Login-1,200,OK,Thread Group 1-11,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772160997,5,Login,200,OK,Thread Group 1-12,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772160997,4,Login-0,302,Found,Thread Group 1-12,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,4,0,0
+1684772161001,1,Login-1,200,OK,Thread Group 1-12,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772161084,2,Home,200,OK,Thread Group 1-4,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772161084,1,Home-0,302,Found,Thread Group 1-4,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772161085,1,Home-1,200,OK,Thread Group 1-4,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772161141,6,Sign Out,200,OK,Thread Group 1-3,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,4,0,0
+1684772161141,4,Sign Out-0,302,Found,Thread Group 1-3,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,4,0,0
+1684772161146,1,Sign Out-1,200,OK,Thread Group 1-3,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772161175,2,Home,200,OK,Thread Group 1-13,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772161175,1,Home-0,302,Found,Thread Group 1-13,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772161176,1,Home-1,200,OK,Thread Group 1-13,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772161538,3,Sign Out,200,OK,Thread Group 1-7,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772161538,2,Sign Out-0,302,Found,Thread Group 1-7,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772161540,1,Sign Out-1,200,OK,Thread Group 1-7,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772161708,3,Sign In,200,OK,Thread Group 1-25,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772161738,2,Home,200,OK,Thread Group 1-6,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772161738,1,Home-0,302,Found,Thread Group 1-6,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772161739,1,Home-1,200,OK,Thread Group 1-6,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772162004,2,Birds,200,OK,Thread Group 1-15,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772162018,3,Birds,200,OK,Thread Group 1-22,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772162094,4,Birds,200,OK,Thread Group 1-17,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,4,0,0
+1684772162158,4,Sign Out,200,OK,Thread Group 1-10,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772162158,2,Sign Out-0,302,Found,Thread Group 1-10,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772162160,2,Sign Out-1,200,OK,Thread Group 1-10,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772162225,4,Login,200,OK,Thread Group 1-16,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772162225,2,Login-0,302,Found,Thread Group 1-16,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772162227,2,Login-1,200,OK,Thread Group 1-16,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772162266,3,Home,200,OK,Thread Group 1-14,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772162266,1,Home-0,302,Found,Thread Group 1-14,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772162267,2,Home-1,200,OK,Thread Group 1-14,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772162419,2,Home,200,OK,Thread Group 1-9,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772162419,1,Home-0,302,Found,Thread Group 1-9,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772162420,1,Home-1,200,OK,Thread Group 1-9,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772162481,2,Birds,200,OK,Thread Group 1-8,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772162649,3,Birds,200,OK,Thread Group 1-12,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772163085,2,Main Catalog,200,OK,Thread Group 1-13,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772163130,3,Login,200,OK,Thread Group 1-21,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772163130,2,Login-0,302,Found,Thread Group 1-21,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,2,0,0
+1684772163132,1,Login-1,200,OK,Thread Group 1-21,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163160,3,Sign Out,200,OK,Thread Group 1-5,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163160,1,Sign Out-0,302,Found,Thread Group 1-5,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772163162,1,Sign Out-1,200,OK,Thread Group 1-5,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163492,11,Login,200,OK,Thread Group 1-20,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772163492,5,Login-0,302,Found,Thread Group 1-20,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,5,0,0
+1684772163497,6,Login-1,200,OK,Thread Group 1-20,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,6,0,0
+1684772163533,2,Login,200,OK,Thread Group 1-24,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163533,1,Login-0,302,Found,Thread Group 1-24,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,1,0,0
+1684772163534,1,Login-1,200,OK,Thread Group 1-24,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163540,1,Home,200,OK,Thread Group 1-7,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772163540,0,Home-0,302,Found,Thread Group 1-7,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772163540,1,Home-1,200,OK,Thread Group 1-7,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772163539,2,Sign Out,200,OK,Thread Group 1-15,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163539,1,Sign Out-0,302,Found,Thread Group 1-15,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772163540,1,Sign Out-1,200,OK,Thread Group 1-15,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163575,3,Sign Out,200,OK,Thread Group 1-19,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772163575,2,Sign Out-0,302,Found,Thread Group 1-19,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772163577,1,Sign Out-1,200,OK,Thread Group 1-19,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163628,1,Main Catalog,200,OK,Thread Group 1-6,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163672,3,Sign Out,200,OK,Thread Group 1-22,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163672,1,Sign Out-0,302,Found,Thread Group 1-22,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772163674,1,Sign Out-1,200,OK,Thread Group 1-22,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772163733,3,Birds,200,OK,Thread Group 1-18,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772163869,2,Birds,200,OK,Thread Group 1-23,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772163883,3,Sign In,200,OK,Thread Group 1-2,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,3,0,0
+1684772163939,2,Main Catalog,200,OK,Thread Group 1-9,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772164014,2,Home,200,OK,Thread Group 1-1,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772164014,1,Home-0,302,Found,Thread Group 1-1,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772164015,1,Home-1,200,OK,Thread Group 1-1,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772164025,5,Home,200,OK,Thread Group 1-10,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772164025,0,Home-0,302,Found,Thread Group 1-10,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772164025,5,Home-1,200,OK,Thread Group 1-10,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,5,0,0
+1684772164126,2,Birds,200,OK,Thread Group 1-11,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,2,0,0
+1684772164252,1,Home,200,OK,Thread Group 1-3,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772164252,1,Home-0,302,Found,Thread Group 1-3,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772164253,0,Home-1,200,OK,Thread Group 1-3,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772164377,1,Birds,200,OK,Thread Group 1-16,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,1,0,0
+1684772164380,1,Main Catalog,200,OK,Thread Group 1-4,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772164523,1,Main Catalog,200,OK,Thread Group 1-14,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772164758,3,Birds,200,OK,Thread Group 1-21,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772165081,3,Birds,200,OK,Thread Group 1-20,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,3,0,0
+1684772165465,4,Sign Out,200,OK,Thread Group 1-17,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772165465,1,Sign Out-0,302,Found,Thread Group 1-17,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772165467,2,Sign Out-1,200,OK,Thread Group 1-17,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772165603,7,Sign Out,200,OK,Thread Group 1-8,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772165603,2,Sign Out-0,302,Found,Thread Group 1-8,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772165605,5,Sign Out-1,200,OK,Thread Group 1-8,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,5,0,0
+1684772165796,2,Sign In,200,OK,Thread Group 1-13,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772165858,2,Home,200,OK,Thread Group 1-19,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772165858,0,Home-0,302,Found,Thread Group 1-19,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772165859,1,Home-1,200,OK,Thread Group 1-19,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772165860,1,Home,200,OK,Thread Group 1-15,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772165860,0,Home-0,302,Found,Thread Group 1-15,,true,,146,195,25,25,http://localhost:8080/jpetstore,0,0,0
+1684772165861,0,Home-1,200,OK,Thread Group 1-15,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,0,0,0
+1684772165878,1,Birds,200,OK,Thread Group 1-24,text,true,,3710,249,25,25,http://localhost:8080/jpetstore/actions/Catalog.action?viewCategory=&categoryId=BIRDS,1,0,0
+1684772165914,2,Sign In,200,OK,Thread Group 1-6,text,true,,3921,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772165921,4,Sign Out,200,OK,Thread Group 1-12,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772165921,1,Sign Out-0,302,Found,Thread Group 1-12,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,1,0,0
+1684772165923,2,Sign Out-1,200,OK,Thread Group 1-12,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772166009,2,Sign In,200,OK,Thread Group 1-4,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772166098,2,Main Catalog,200,OK,Thread Group 1-3,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772166149,2,Sign In,200,OK,Thread Group 1-9,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772166176,8,Home,200,OK,Thread Group 1-22,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772166176,1,Home-0,302,Found,Thread Group 1-22,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772166178,6,Home-1,200,OK,Thread Group 1-22,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,6,0,0
+1684772166334,2,Main Catalog,200,OK,Thread Group 1-7,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772166368,4,Login,200,OK,Thread Group 1-25,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772166368,3,Login-0,302,Found,Thread Group 1-25,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772166371,1,Login-1,200,OK,Thread Group 1-25,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772166398,2,Home,200,OK,Thread Group 1-5,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772166398,1,Home-0,302,Found,Thread Group 1-5,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772166399,1,Home-1,200,OK,Thread Group 1-5,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772166482,2,Main Catalog,200,OK,Thread Group 1-10,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772166503,2,Sign In,200,OK,Thread Group 1-14,text,true,,3923,545,25,25,http://localhost:8080/jpetstore/actions/Account.action?signonForm=,2,0,0
+1684772166853,5,Sign Out,200,OK,Thread Group 1-16,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772166853,2,Sign Out-0,302,Found,Thread Group 1-16,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772166856,2,Sign Out-1,200,OK,Thread Group 1-16,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772166924,9,Sign Out,200,OK,Thread Group 1-21,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772166924,2,Sign Out-0,302,Found,Thread Group 1-21,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772166926,7,Sign Out-1,200,OK,Thread Group 1-21,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,7,0,0
+1684772166998,4,Sign Out,200,OK,Thread Group 1-18,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772166998,2,Sign Out-0,302,Found,Thread Group 1-18,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772167000,2,Sign Out-1,200,OK,Thread Group 1-18,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772167112,2,Main Catalog,200,OK,Thread Group 1-1,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772167176,4,Sign Out,200,OK,Thread Group 1-23,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772167176,2,Sign Out-0,302,Found,Thread Group 1-23,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772167178,2,Sign Out-1,200,OK,Thread Group 1-23,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772167205,3,Home,200,OK,Thread Group 1-17,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772167205,1,Home-0,302,Found,Thread Group 1-17,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772167206,2,Home-1,200,OK,Thread Group 1-17,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,2,0,0
+1684772167466,4,Sign Out,200,OK,Thread Group 1-20,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772167466,2,Sign Out-0,302,Found,Thread Group 1-20,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772167468,2,Sign Out-1,200,OK,Thread Group 1-20,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772167615,4,Sign Out,200,OK,Thread Group 1-11,text,true,,5255,1075,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772167615,2,Sign Out-0,302,Found,Thread Group 1-11,,true,,333,542,25,25,http://localhost:8080/jpetstore/actions/Account.action?signoff=,2,0,0
+1684772167617,2,Sign Out-1,200,OK,Thread Group 1-11,text,true,,4922,533,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,2,0,0
+1684772167683,2,Home,200,OK,Thread Group 1-12,text,true,,1497,391,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772167683,1,Home-0,302,Found,Thread Group 1-12,,true,,146,195,25,25,http://localhost:8080/jpetstore,1,0,0
+1684772167684,1,Home-1,200,OK,Thread Group 1-12,text,true,,1351,196,25,25,http://localhost:8080/jpetstore/,1,0,0
+1684772167694,4,Login,200,OK,Thread Group 1-2,text,true,,5262,1505,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,3,0,0
+1684772167694,3,Login-0,302,Found,Thread Group 1-2,,true,,193,880,25,25,http://localhost:8080/jpetstore/actions/Account.action,3,0,0
+1684772167697,1,Login-1,200,OK,Thread Group 1-2,text,true,,5069,625,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
+1684772167700,1,Main Catalog,200,OK,Thread Group 1-22,text,true,,4832,468,25,25,http://localhost:8080/jpetstore/actions/Catalog.action,1,0,0
